@@ -1,7 +1,6 @@
 export default {
-    oneState: {
-        isLoading: false,
-        isFailed: false,
-        shouldChange: false,
+    cartDetailsState: {
+        displayListView: false,
+        mainCartValue: 0
     },
 };

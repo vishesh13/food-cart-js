@@ -1,0 +1,63 @@
+.title {
+    flex-grow: 3;
+}
+
+.menu-view {
+    flex-grow: 1;
+}
+
+.app-bar {
+    border-radius: 10px;
+    height: 7.5vh;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 97%;
+    color: white;
+}
+
+.list-view {
+    width: 100%;
+    max-width: 20vw;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: white;
+    height: 95%;
+    margin: 6% 0% 0% 5%;
+    border-radius: 10px;
+}
+
+.meals-view-root {
+    margin-top: 3%;
+    height: 90%;
+    width: 71vw;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.meal-tile {
+    width: 30%;
+    height: 30%;
+    padding: 2px;
+    margin-top: 2%;
+    margin: 2% 0% 1% 0%;;
+}
+
+.gridList {
+    height: 550px;
+}
+  
+.icon {
+    color: 'rgba(255, 255, 255, 0.54)';
+}
+
+.white-color {
+    color: white;
+}
+
+.info-content {
+    margin-left: 2%;
+}

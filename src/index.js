@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import OneApplication from './startup/OneApplication';
+import FoodCartApplication from './startup/FoodCartApplication';
 import './index.css';
 
 ReactDOM.render(
-  <OneApplication />,
+  <FoodCartApplication />,
   document.getElementById('root')
 );
